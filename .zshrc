@@ -100,14 +100,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cls="clear"
 
-# Fix omnisharp
-export MSBuildSDKsPath=/opt/dotnet/sdk/$(dotnet --version)/Sdks
-
-# dotnet tools
-export PATH="$PATH:/home/krzysztof/.dotnet/tools"
-
-
-
-# tabtab source for electron-forge package
-# uninstall by removing these lines or running `tabtab uninstall electron-forge`
-[[ -f /home/krzysztof/Projects/HelloWorld/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/krzysztof/Projects/HelloWorld/node_modules/tabtab/.completions/electron-forge.zsh
